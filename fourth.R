@@ -20,5 +20,5 @@ df1
 
 for(i in 1:4)
 df1[,i]<- ifelse ( is.na(df[,i]), mean(df[,i], na.rm = TRUE), df[,i])
-df
+
 
